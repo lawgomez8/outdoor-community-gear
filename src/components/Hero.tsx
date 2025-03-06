@@ -31,8 +31,8 @@ const Hero = () => {
 
   return (
     <div ref={heroRef} className="relative h-screen w-full overflow-hidden">
-      {/* Background Image with overlay */}
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469474968028-56623f02e42e')] bg-cover bg-center">
+      {/* Background Image with overlay - Updated to Latin American landscape */}
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518050346340-aa2ec3bb424b')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/50"></div>
       </div>
       

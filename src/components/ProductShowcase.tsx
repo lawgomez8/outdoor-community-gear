@@ -19,14 +19,14 @@ interface Product {
 const ProductShowcase = () => {
   const [activeCategory, setActiveCategory] = useState<Category>('all');
 
-  // Sample products data
+  // Sample products data - Updated with Latin American landscapes
   const products: Product[] = [
     {
       id: 1,
       name: "Pantalones Alpine Trekker",
       category: "pants",
       price: 129,
-      image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
+      image: "https://images.unsplash.com/photo-1536854353059-5d948b478adb",
       isBestseller: true,
       colors: 4
     },
@@ -35,7 +35,7 @@ const ProductShowcase = () => {
       name: "Chaqueta Summit Shell",
       category: "jackets",
       price: 249,
-      image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+      image: "https://images.unsplash.com/photo-1533081902819-a406ed8f8139",
       isNewArrival: true,
       colors: 3
     },
@@ -44,7 +44,7 @@ const ProductShowcase = () => {
       name: "Pantalones Boulder Climb",
       category: "pants",
       price: 149,
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
+      image: "https://images.unsplash.com/photo-1541215833106-50d1a8db3cd5",
       colors: 2
     },
     {
@@ -52,7 +52,7 @@ const ProductShowcase = () => {
       name: "Chaqueta Ridge Insulated",
       category: "jackets",
       price: 279,
-      image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+      image: "https://images.unsplash.com/photo-1488109991805-37c35adb08fd",
       colors: 3
     }
   ];

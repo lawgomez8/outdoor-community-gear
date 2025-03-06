@@ -31,13 +31,13 @@ const AboutSection = () => {
     <section id="about" className="section-padding">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
-          {/* Left: Image */}
+          {/* Left: Image - Updated to Latin American landscape */}
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl">
               <img 
                 ref={imageRef}
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027" 
-                alt="Paisaje montañoso" 
+                src="https://images.unsplash.com/photo-1591022560022-d75eb933f1ba" 
+                alt="Paisaje latinoamericano" 
                 className="w-full h-auto rounded-2xl opacity-0"
               />
             </div>

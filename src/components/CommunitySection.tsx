@@ -1,27 +1,26 @@
-
 import React from 'react';
 import { Users, Mountain, Map } from 'lucide-react';
 
 const CommunitySection = () => {
-  // Sample community events
+  // Sample community events - Updated with Latin American locations
   const events = [
     {
-      title: "Desafío Cumbre Mt. Whitney",
+      title: "Desafío Cumbre Aconcagua",
       date: "15-17 de Agosto, 2023",
-      location: "California",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+      location: "Argentina",
+      image: "https://images.unsplash.com/photo-1489571723443-8c61153e42dc"
     },
     {
-      title: "Encuentro de Escalada Red Rock Canyon",
+      title: "Encuentro de Escalada Valle de Cochamó",
       date: "5 de Septiembre, 2023",
-      location: "Nevada",
-      image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67"
+      location: "Chile",
+      image: "https://images.unsplash.com/photo-1552225193-d7ca4ef2e8f4"
     },
     {
-      title: "Caminata de Fin de Semana por Appalachian Trail",
+      title: "Caminata por el Camino Inca",
       date: "12-14 de Octubre, 2023",
-      location: "Virginia",
-      image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
+      location: "Perú",
+      image: "https://images.unsplash.com/photo-1526392060635-9d6019884377"
     }
   ];
 
@@ -80,7 +79,7 @@ const CommunitySection = () => {
           </div>
         </div>
 
-        {/* Upcoming events */}
+        {/* Upcoming events - Updated with Latin American events */}
         <div className="mb-12">
           <h3 className="heading-md text-center mb-10">Próximos Eventos Comunitarios</h3>
           
