@@ -13,7 +13,7 @@ const Footer = () => {
               <h2 className="text-2xl font-display font-bold">SUMMIT</h2>
             </a>
             <p className="text-forest-100">
-              Specialized outdoor gear for hikers and climbers who push boundaries and embrace adventure.
+              Equipamiento especializado para excursionistas y escaladores que desafían límites y abrazan la aventura.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="p-2 rounded-full bg-forest-800 hover:bg-forest-700 transition-colors">
@@ -33,32 +33,32 @@ const Footer = () => {
           
           {/* Shop links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Shop</h3>
+            <h3 className="text-lg font-semibold mb-6">Tienda</h3>
             <ul className="space-y-4">
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">All Products</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Hiking Pants</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Climbing Pants</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Trail Jackets</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Weather Shells</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">New Arrivals</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Todos los Productos</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Pantalones de Senderismo</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Pantalones de Escalada</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Chaquetas de Senderismo</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Impermeables</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Novedades</a></li>
             </ul>
           </div>
           
           {/* Community links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Community</h3>
+            <h3 className="text-lg font-semibold mb-6">Comunidad</h3>
             <ul className="space-y-4">
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Events</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Trail Reports</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Stories</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Ambassador Program</a></li>
-              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Partnerships</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Eventos</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Informes de Senderos</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Historias</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Programa de Embajadores</a></li>
+              <li><a href="#" className="text-forest-100 hover:text-white transition-colors">Colaboraciones</a></li>
             </ul>
           </div>
           
           {/* Contact info */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-6">Contáctanos</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="flex-shrink-0 mt-1" />
@@ -83,18 +83,18 @@ const Footer = () => {
         {/* Newsletter */}
         <div className="border-t border-forest-800 pt-8 pb-12">
           <div className="max-w-xl mx-auto text-center">
-            <h3 className="text-xl font-semibold mb-4">Join Our Newsletter</h3>
+            <h3 className="text-xl font-semibold mb-4">Suscríbete a Nuestro Boletín</h3>
             <p className="text-forest-100 mb-6">
-              Stay updated with new products, community events, and exclusive offers.
+              Mantente actualizado con nuevos productos, eventos comunitarios y ofertas exclusivas.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <input
                 type="email"
-                placeholder="Your email address"
+                placeholder="Tu dirección de email"
                 className="flex-grow px-4 py-3 rounded-md bg-forest-800 border border-forest-700 focus:outline-none focus:ring-2 focus:ring-forest-500 text-white"
               />
               <button className="px-6 py-3 rounded-md bg-clay-500 hover:bg-clay-600 text-white font-medium transition-colors">
-                Subscribe
+                Suscribirse
               </button>
             </div>
           </div>
@@ -103,17 +103,17 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-forest-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-forest-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Summit Outdoor Gear. All rights reserved.
+            &copy; {new Date().getFullYear()} Summit Outdoor Gear. Todos los derechos reservados.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-forest-400 text-sm hover:text-forest-300 transition-colors">
-              Privacy Policy
+              Política de Privacidad
             </a>
             <a href="#" className="text-forest-400 text-sm hover:text-forest-300 transition-colors">
-              Terms of Service
+              Términos de Servicio
             </a>
             <a href="#" className="text-forest-400 text-sm hover:text-forest-300 transition-colors">
-              Shipping Info
+              Información de Envío
             </a>
           </div>
         </div>

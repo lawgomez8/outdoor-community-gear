@@ -37,7 +37,7 @@ const AboutSection = () => {
               <img 
                 ref={imageRef}
                 src="https://images.unsplash.com/photo-1472396961693-142e6e269027" 
-                alt="Mountain landscape" 
+                alt="Paisaje montañoso" 
                 className="w-full h-auto rounded-2xl opacity-0"
               />
             </div>
@@ -47,39 +47,39 @@ const AboutSection = () => {
           
           {/* Right: Content */}
           <div ref={contentRef} className="space-y-6">
-            <span className="badge bg-forest-100 text-forest-800 opacity-0">Our Story</span>
-            <h2 className="heading-lg opacity-0">Crafted For The Journey Ahead</h2>
+            <span className="badge bg-forest-100 text-forest-800 opacity-0">Nuestra Historia</span>
+            <h2 className="heading-lg opacity-0">Creado Para el Viaje por Delante</h2>
             <p className="text-lg text-muted-foreground opacity-0">
-              Founded by a group of passionate hikers and climbers, our brand was born from a desire to create gear that truly understands the needs of outdoor enthusiasts.
+              Fundada por un grupo de excursionistas y escaladores apasionados, nuestra marca nació del deseo de crear equipamiento que realmente comprenda las necesidades de los entusiastas del aire libre.
             </p>
             <p className="text-lg text-muted-foreground opacity-0">
-              We believe that the right equipment doesn't just enhance performance—it enables experiences that stay with you for a lifetime.
+              Creemos que el equipo adecuado no solo mejora el rendimiento, sino que permite experiencias que te acompañan toda la vida.
             </p>
             
             {/* Values */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 opacity-0">
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-2 text-forest-800">Sustainability</h3>
+                <h3 className="text-xl font-semibold mb-2 text-forest-800">Sostenibilidad</h3>
                 <p className="text-muted-foreground">
-                  Committed to environmentally responsible manufacturing and materials.
+                  Comprometidos con la fabricación y materiales ambientalmente responsables.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-2 text-forest-800">Performance</h3>
+                <h3 className="text-xl font-semibold mb-2 text-forest-800">Rendimiento</h3>
                 <p className="text-muted-foreground">
-                  Designed and tested in extreme conditions to ensure reliability.
+                  Diseñado y probado en condiciones extremas para garantizar fiabilidad.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-2 text-forest-800">Community</h3>
+                <h3 className="text-xl font-semibold mb-2 text-forest-800">Comunidad</h3>
                 <p className="text-muted-foreground">
-                  Building connections between adventurers around the world.
+                  Construyendo conexiones entre aventureros de todo el mundo.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <h3 className="text-xl font-semibold mb-2 text-forest-800">Innovation</h3>
+                <h3 className="text-xl font-semibold mb-2 text-forest-800">Innovación</h3>
                 <p className="text-muted-foreground">
-                  Constantly evolving our designs through real-world testing.
+                  Evolucionando constantemente nuestros diseños mediante pruebas en el mundo real.
                 </p>
               </div>
             </div>

@@ -41,16 +41,16 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#products" className="font-medium text-forest-800 hover:text-forest-600 transition-colors link-underline">
-            Products
+            Productos
           </a>
           <a href="#community" className="font-medium text-forest-800 hover:text-forest-600 transition-colors link-underline">
-            Community
+            Comunidad
           </a>
           <a href="#about" className="font-medium text-forest-800 hover:text-forest-600 transition-colors link-underline">
-            About Us
+            Sobre Nosotros
           </a>
           <a href="#stories" className="font-medium text-forest-800 hover:text-forest-600 transition-colors link-underline">
-            Stories
+            Historias
           </a>
         </nav>
 
@@ -90,28 +90,28 @@ const Navbar = () => {
             className="py-3 text-xl font-medium text-forest-800 border-b border-gray-100"
             onClick={toggleMobileMenu}
           >
-            Products
+            Productos
           </a>
           <a
             href="#community"
             className="py-3 text-xl font-medium text-forest-800 border-b border-gray-100"
             onClick={toggleMobileMenu}
           >
-            Community
+            Comunidad
           </a>
           <a
             href="#about"
             className="py-3 text-xl font-medium text-forest-800 border-b border-gray-100"
             onClick={toggleMobileMenu}
           >
-            About Us
+            Sobre Nosotros
           </a>
           <a
             href="#stories"
             className="py-3 text-xl font-medium text-forest-800 border-b border-gray-100"
             onClick={toggleMobileMenu}
           >
-            Stories
+            Historias
           </a>
         </nav>
       </div>

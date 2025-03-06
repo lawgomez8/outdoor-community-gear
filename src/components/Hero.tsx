@@ -41,19 +41,19 @@ const Hero = () => {
         ref={textContainerRef}
         className="relative h-full flex flex-col items-center justify-center px-6 text-center"
       >
-        <span className="badge bg-white/90 text-forest-800 mb-6 animate-float-up">Discover Our New Collection</span>
+        <span className="badge bg-white/90 text-forest-800 mb-6 animate-float-up">Descubre Nuestra Nueva Colección</span>
         <h1 className="heading-xl text-white mb-6 max-w-4xl mx-auto animate-float-up animate-delay-100">
-          Gear For Those Who Seek The <span className="text-sky-300">Extraordinary</span>
+          Equipamiento Para Quienes Buscan Lo <span className="text-sky-300">Extraordinario</span>
         </h1>
         <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mb-8 animate-float-up animate-delay-200">
-          Specialized pants and jackets designed for hikers and climbers who push boundaries and embrace adventure.
+          Pantalones y chaquetas especializadas diseñadas para excursionistas y escaladores que desafían límites y abrazan la aventura.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate-float-up animate-delay-300">
           <button className="px-8 py-3 rounded-md bg-forest-600 hover:bg-forest-700 text-white font-medium transition-colors">
-            Shop Collection
+            Comprar Colección
           </button>
           <button className="px-8 py-3 rounded-md bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-medium border border-white/30 transition-colors">
-            Join Community
+            Unirse a la Comunidad
           </button>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Hero = () => {
         onClick={scrollToNextSection}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white animate-bounce flex flex-col items-center"
       >
-        <span className="text-sm mb-2">Scroll</span>
+        <span className="text-sm mb-2">Desplázate</span>
         <ArrowDown size={20} />
       </button>
     </div>

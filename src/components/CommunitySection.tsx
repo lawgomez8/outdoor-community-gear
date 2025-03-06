@@ -6,20 +6,20 @@ const CommunitySection = () => {
   // Sample community events
   const events = [
     {
-      title: "Mt. Whitney Summit Challenge",
-      date: "August 15-17, 2023",
+      title: "Desafío Cumbre Mt. Whitney",
+      date: "15-17 de Agosto, 2023",
       location: "California",
       image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
     },
     {
-      title: "Red Rock Canyon Climbing Meetup",
-      date: "September 5, 2023",
+      title: "Encuentro de Escalada Red Rock Canyon",
+      date: "5 de Septiembre, 2023",
       location: "Nevada",
       image: "https://images.unsplash.com/photo-1504893524553-b855bce32c67"
     },
     {
-      title: "Appalachian Trail Weekend Hike",
-      date: "October 12-14, 2023",
+      title: "Caminata de Fin de Semana por Appalachian Trail",
+      date: "12-14 de Octubre, 2023",
       location: "Virginia",
       image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
     }
@@ -33,11 +33,11 @@ const CommunitySection = () => {
       <div className="container mx-auto">
         {/* Section header */}
         <div className="mb-16 text-center max-w-3xl mx-auto">
-          <span className="badge bg-forest-100 text-forest-800 mb-4">Join Our Community</span>
-          <h2 className="heading-lg mb-4">Connect With Fellow Adventurers</h2>
+          <span className="badge bg-forest-100 text-forest-800 mb-4">Únete a Nuestra Comunidad</span>
+          <h2 className="heading-lg mb-4">Conéctate con Otros Aventureros</h2>
           <p className="text-muted-foreground text-lg">
-            We're building a community of passionate hikers and climbers who share their experiences,
-            inspire each other, and organize events to explore the great outdoors together.
+            Estamos construyendo una comunidad de excursionistas y escaladores apasionados que comparten sus experiencias,
+            se inspiran mutuamente y organizan eventos para explorar juntos la naturaleza.
           </p>
         </div>
 
@@ -49,9 +49,9 @@ const CommunitySection = () => {
                 <Users size={32} className="text-forest-600" />
               </div>
             </div>
-            <h3 className="heading-sm mb-3">Community Events</h3>
+            <h3 className="heading-sm mb-3">Eventos Comunitarios</h3>
             <p className="text-muted-foreground">
-              Join group hikes, climbing sessions, and outdoor workshops organized by our community members.
+              Participa en excursiones grupales, sesiones de escalada y talleres al aire libre organizados por miembros de nuestra comunidad.
             </p>
           </div>
           
@@ -61,9 +61,9 @@ const CommunitySection = () => {
                 <Mountain size={32} className="text-forest-600" />
               </div>
             </div>
-            <h3 className="heading-sm mb-3">Trail Reports</h3>
+            <h3 className="heading-sm mb-3">Informes de Senderos</h3>
             <p className="text-muted-foreground">
-              Get real-time updates and reports from trails and climbing spots from our community members.
+              Obtén actualizaciones e informes en tiempo real de senderos y lugares de escalada de nuestros miembros de la comunidad.
             </p>
           </div>
           
@@ -73,16 +73,16 @@ const CommunitySection = () => {
                 <Map size={32} className="text-forest-600" />
               </div>
             </div>
-            <h3 className="heading-sm mb-3">Exclusive Routes</h3>
+            <h3 className="heading-sm mb-3">Rutas Exclusivas</h3>
             <p className="text-muted-foreground">
-              Access curated maps and routes for the best hiking and climbing experiences worldwide.
+              Accede a mapas y rutas seleccionadas para las mejores experiencias de senderismo y escalada en todo el mundo.
             </p>
           </div>
         </div>
 
         {/* Upcoming events */}
         <div className="mb-12">
-          <h3 className="heading-md text-center mb-10">Upcoming Community Events</h3>
+          <h3 className="heading-md text-center mb-10">Próximos Eventos Comunitarios</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {events.map((event, index) => (
@@ -106,7 +106,7 @@ const CommunitySection = () => {
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center p-6">
                   <button className="w-full py-3 rounded-md bg-white text-forest-800 font-medium hover:bg-forest-50 transition-colors">
-                    RSVP Now
+                    Confirmar Asistencia
                   </button>
                 </div>
               </div>
@@ -117,20 +117,20 @@ const CommunitySection = () => {
         {/* CTA */}
         <div className="bg-forest-800 rounded-2xl p-8 md:p-12 text-center">
           <h3 className="text-2xl md:text-3xl font-display font-semibold text-white mb-4">
-            Ready to join our community?
+            ¿Listo para unirte a nuestra comunidad?
           </h3>
           <p className="text-white/80 max-w-2xl mx-auto mb-8">
-            Sign up for our newsletter to receive updates on community events, trail reports,
-            and exclusive offers for our members.
+            Suscríbete a nuestro boletín para recibir actualizaciones sobre eventos comunitarios, informes de senderos
+            y ofertas exclusivas para nuestros miembros.
           </p>
           <div className="flex flex-col sm:flex-row max-w-md mx-auto gap-4">
             <input
               type="email"
-              placeholder="Your email address"
+              placeholder="Tu dirección de email"
               className="flex-grow px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-forest-400"
             />
             <button className="px-6 py-3 rounded-md bg-clay-500 hover:bg-clay-600 text-white font-medium transition-colors">
-              Join Now
+              Unirse Ahora
             </button>
           </div>
         </div>

@@ -23,7 +23,7 @@ const ProductShowcase = () => {
   const products: Product[] = [
     {
       id: 1,
-      name: "Alpine Trekker Pants",
+      name: "Pantalones Alpine Trekker",
       category: "pants",
       price: 129,
       image: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843",
@@ -32,7 +32,7 @@ const ProductShowcase = () => {
     },
     {
       id: 2,
-      name: "Summit Shell Jacket",
+      name: "Chaqueta Summit Shell",
       category: "jackets",
       price: 249,
       image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
@@ -41,7 +41,7 @@ const ProductShowcase = () => {
     },
     {
       id: 3,
-      name: "Boulder Climb Pants",
+      name: "Pantalones Boulder Climb",
       category: "pants",
       price: 149,
       image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
@@ -49,7 +49,7 @@ const ProductShowcase = () => {
     },
     {
       id: 4,
-      name: "Ridge Insulated Jacket",
+      name: "Chaqueta Ridge Insulated",
       category: "jackets",
       price: 279,
       image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
@@ -66,10 +66,10 @@ const ProductShowcase = () => {
       <div className="container mx-auto">
         {/* Section header */}
         <div className="mb-12 md:mb-16 text-center max-w-3xl mx-auto">
-          <h2 className="heading-lg mb-4">Designed For Adventure</h2>
+          <h2 className="heading-lg mb-4">Diseñado Para la Aventura</h2>
           <p className="text-muted-foreground text-lg md:text-xl">
-            Specialized gear for hikers and climbers, crafted with premium materials for durability,
-            comfort, and performance in any environment.
+            Equipamiento especializado para excursionistas y escaladores, elaborado con materiales premium para durabilidad,
+            comodidad y rendimiento en cualquier entorno.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ const ProductShowcase = () => {
                   : 'text-gray-600 hover:text-forest-700'
               }`}
             >
-              All Products
+              Todos los Productos
             </button>
             <button
               onClick={() => setActiveCategory('pants')}
@@ -94,7 +94,7 @@ const ProductShowcase = () => {
                   : 'text-gray-600 hover:text-forest-700'
               }`}
             >
-              Pants
+              Pantalones
             </button>
             <button
               onClick={() => setActiveCategory('jackets')}
@@ -104,7 +104,7 @@ const ProductShowcase = () => {
                   : 'text-gray-600 hover:text-forest-700'
               }`}
             >
-              Jackets
+              Chaquetas
             </button>
           </div>
         </div>
@@ -127,10 +127,10 @@ const ProductShowcase = () => {
               {/* Badges */}
               <div className="absolute top-4 left-4 flex flex-col gap-2">
                 {product.isBestseller && (
-                  <span className="badge bg-clay-500 text-white">Bestseller</span>
+                  <span className="badge bg-clay-500 text-white">Más Vendido</span>
                 )}
                 {product.isNewArrival && (
-                  <span className="badge bg-mountain-500 text-white">New Arrival</span>
+                  <span className="badge bg-mountain-500 text-white">Novedad</span>
                 )}
               </div>
               
@@ -139,14 +139,14 @@ const ProductShowcase = () => {
                 <h3 className="heading-sm mb-2 text-forest-900">{product.name}</h3>
                 <div className="flex justify-between items-center">
                   <p className="font-semibold text-forest-800">${product.price}</p>
-                  <p className="text-sm text-gray-500">{product.colors} colors</p>
+                  <p className="text-sm text-gray-500">{product.colors} colores</p>
                 </div>
               </div>
               
               {/* Quick add button (appears on hover) */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-forest-800 to-transparent p-5 translate-y-full opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                 <button className="w-full py-2 rounded-md bg-white text-forest-800 font-medium hover:bg-forest-50 transition-colors">
-                  Quick Add
+                  Añadir Rápido
                 </button>
               </div>
             </div>
@@ -159,7 +159,7 @@ const ProductShowcase = () => {
             href="#" 
             className="inline-flex items-center gap-2 text-forest-700 font-medium hover:text-forest-800 transition-colors"
           >
-            View All Products <ArrowRight size={16} />
+            Ver Todos los Productos <ArrowRight size={16} />
           </a>
         </div>
       </div>
